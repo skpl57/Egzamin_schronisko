@@ -27,6 +27,7 @@
         android:text="Które to schornisko?" />
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
@@ -35,12 +36,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
+            android:hint="A"
             android:text="Na Rysiance." />
 
         <RadioButton
             android:id="@+id/radioB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="B"
             android:textColor="@color/white"
             android:text="Na Wielkiej Raczy." />
 
@@ -49,6 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
+            android:hint="C"
             android:text="Na Wielkiej Rycerzowej." />
 
         <Button
